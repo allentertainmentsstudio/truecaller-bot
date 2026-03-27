@@ -21,7 +21,7 @@ cc = cfg.API
 async def numchk(n: str, x):
     try:
         if len(n) == 12:
-            if n.startswith("+94"):
+            if n.startswith("+91"):
                 number = n[3:]
             else:
                 number = "Invalid Number"
@@ -59,12 +59,12 @@ sendtxt = """
 <b>⏳┖╼ TimeZone :-</b> <code>{}</code>
 
 <b>Social Accounts ⤸⤸</b>
-<b><i>☘️ Telegram Link :-</i> <a href={}>Click Here</a></b>
-<b><i>☘️ Whatsapp Link :-</i> <a href={}>Click Here</a></b>
+<b><i>☘️ Telegram Link :-</i> <a href="https://t.me/Anujedits76">Click Here</a></b>
+<b><i>☘️ Whatsapp Link :-</i> <a href="https://wa.me/qr/KIMMGWH7GUEYO1">Click Here</a></b>
 
 <b>»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»</b>
 
-<b><spoiler>🔥 Powered By @Taprobane_LK ©️| @TheTruecaller_Bot 🤖</spoiler></b>
+<b><spoiler>🔥 Powered By @anujedits76 ©️| @phone_number_info_ak_bot 🤖</spoiler></b>
 
 """
 
@@ -93,8 +93,8 @@ async def stsrt(_, m : Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Update Channel", url="https://t.me/Taprobane_Lk"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/TaprobaneChat")
+                        InlineKeyboardButton("🗯 Update Channel", url="https://t.me/log_channel_a"),
+                        InlineKeyboardButton("💬 Support", url="https://t.me/log_channel_a")
                     ]
                 ]
             )
@@ -120,12 +120,12 @@ Features:- ⚕⚕
 
 🎡 Other Countries will add soon.
 
-||🔥 Powered By @Taprobane_LK ©️ | @TheTruecaller_Bot 🤖||**""", reply_markup=keyboard)
+||🔥 Powered By @anujedits76 ©️ | @phone_number_info_ak_bot 🤖||**""", reply_markup=keyboard)
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/TheTruecaller_Bot?start=start")
+                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/phone_number_info_ak_bot?start=start")
                     ]
                 ]
             )
@@ -141,7 +141,7 @@ Features:- ⚕⚕
                 ]
             ]
         )
-        await m.reply_text("**🚧Access Denied!🚧\n\nPlease Join @{} to use me.If you joined click check again button to confirm.**".format("Taprobane_LK"), reply_markup=key)
+        await m.reply_text("**🚧Access Denied!🚧\n\nPlease Join @{} to use me.If you joined click check again button to confirm.**".format("log_channel_a"), reply_markup=key)
     except Exception as e:
         print(e)
 
@@ -153,7 +153,7 @@ async def main(_, m : Message):
 
 @bot.on_message(filters.command("help"))
 async def help(_, m : Message):
-    await m.reply_text("**⚠️Currently Available only for Sri Lankan Numbers.⚠️\nJust send target phone number to lookup informations.\n\n✅Available formats:-\n - +9471⚹⚹⚹⚹⚹⚹⚹\n - 071⚹⚹⚹⚹⚹⚹⚹\n - 71⚹⚹⚹⚹⚹⚹⚹\n\n🍂 Ex:- `+94715607964`\n\n💁‍♂️ If you Need help please send message to __@TaprobaneChat.__\n\n||🔥 Powered By @Taprobane_LK ©️ | @TheTruecaller_Bot 🤖||**")
+    await m.reply_text("**⚠️Currently Available only for Sri Lankan Numbers.⚠️\nJust send target phone number to lookup informations.\n\n✅Available formats:-\n - +9171⚹⚹⚹⚹⚹⚹⚹\n - 071⚹⚹⚹⚹⚹⚹⚹\n - 71⚹⚹⚹⚹⚹⚹⚹\n\n🍂 Ex:- `+919719168804`\n\n💁‍♂️ If you Need help please send message to __@anujedits76.__\n\n||🔥 Powered By @anujedits76 ©️ | @phone_number_info_ak_bot 🤖||**")
 
 @bot.on_callback_query(filters.regex("chk"))
 async def chk(_, cb : CallbackQuery):
