@@ -108,7 +108,7 @@ f"""**
 👋 Hello {m.from_user.mention}!
 
 I'm Simple Unknown call information gather bot. 
-you can check any Sri Lankan 🇱🇰 mobile number informations from me.
+you can check any India 🇮🇳 mobile number informations from me.
 
 Features:- ⚕⚕
     💫 Find unknown numbers owner name and other details.
@@ -174,7 +174,7 @@ f"""**
 👋 Hello {cb.from_user.mention}!
 
 I'm Simple Unknown call information gather bot. 
-you can check any Sri Lankan 🇱🇰 mobile number informations from me.
+you can check any India 🇮🇳 mobile number informations from me.
 
 🧜 Features:-
     💫 Find unknown numbers owner name and other details.
@@ -186,7 +186,7 @@ you can check any Sri Lankan 🇱🇰 mobile number informations from me.
 
 🎡 Other Countries will add soon.
 
-||🔥 Powered By @Taprobane_LK ©️ | @TheTruecaller_Bot 🤖||**""", reply_markup=keyboard) 
+||🔥 Powered By @anujedits76 ©️ | @phone_number_info_ak_bot 🤖||**""", reply_markup=keyboard) 
               
         if c == "444":
                 print('lol')
